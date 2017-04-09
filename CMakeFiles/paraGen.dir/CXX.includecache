@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/peter/FYP/FastLSH-ESS/src/paragen.cpp
+iostream
+-
+vector
+-
+fstream
+-
+math.h
+-
+sstream
+-
+
