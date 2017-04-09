@@ -16,59 +16,26 @@ if (OPENMP_FOUND)
 endif()
 
 
-#import libhdfs
-set(HDFS_FOUND "NO")
-find_package(JNI)
-
-if (JNI_FOUND)
-    message (STATUS "JNI_INCLUDE_DIRS=${JNI_INCLUDE_DIRS}")
-    message (STATUS "JNI_LIBRARIES=${JNI_LIBRARIES}")
-endif()
-
-if(JAVA_INCLUDE_PATH)
-
-    find_path( HDFS_INCLUDE_PATH NAMES hdfs.h PATHS /usr/local/hadoop/include )
-    find_path( HDFS_LIBRARY_PATH libhdfs.so PATHS /usr/local/hadoop/lib/native )
-    find_library( HDFS_LIBRARY NAMES libhdfs.so PATHS /usr/local/hadoop/lib/native  )
-    if(HDFS_INCLUDE_PATH)
-        if(HDFS_LIBRARY_PATH)
-            if(HDFS_LIBRARY)
-                set( HDFS_FOUND "YES")
-                set( HDFS_INCLUDE_DIRS ${HDFS_INCLUDE_PATH} ${JNI_INCLUDE_DIRS} )
-                set( HDFS_LIBRARIES ${HDFS_LIBRARY} ${JNI_LIBRARIES} )
-                message( STATUS "Found HDFS" ${HDFS_INCLUDE_PATH} )
-
-            endif()
-        endif()
-    endif()
-endif()
-
-
 #complie with openmp
 SET(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -fopenmp")
 
-include_directories( ${HDFS_INCLUDE_DIRS} )
 
 set(CMAKE_CXX_STANDARD 11)
 
 set(SOURCE_FILES
         README.md tests/driver.cpp include/LSH.h src/LSH.cpp
-        tests/unitTests/HdfsTest.cpp tests/unitTests/MetaTest.cpp tests/unitTests/MTTests/StdthreadTest.cpp
-        tests/unitTests/MTTests/PthreadTest.cpp src/InMemoryStore/memcached.cpp
+        tests/unitTests/MetaTest.cpp tests/unitTests/MTTests/StdthreadTest.cpp
+        tests/unitTests/MTTests/PthreadTest.cpp
         tests/unitTests/MTTests/OpenMPTest.cpp
-        tests/unitTests/inMemoryStoreTest/MemcachedTest.cpp
-        src/InMemoryStore/redis.cpp tests/unitTests/inMemoryStoreTest/RedisTest.cpp
         src/Normalizer.cpp tests/unitTests/SingleThreadTest.cpp
         include/otherClasses/FileLoader.h
         include/otherClasses/Computer.h tests/unitTests/ComputerTest.cpp include/otherClasses/ParameterHolder.h
-        include/otherClasses/Generator.h src/Generator.cpp src/Computer/PthreadComputer.cpp tests/unitTests/GeneratorTest.cpp src/Computer/SingleThreadComputer.cpp src/Computer/OpenMPComputer.cpp src/Computer/StdThreadComputer.cpp src/FileLoader/LfsLoader.cpp src/FileLoader/FileLoader.cpp src/FileLoader/HdfsLoader.cpp tests/helper.cpp)
+        include/otherClasses/Generator.h src/Generator.cpp src/Computer/PthreadComputer.cpp tests/unitTests/GeneratorTest.cpp src/Computer/SingleThreadComputer.cpp src/Computer/OpenMPComputer.cpp src/Computer/StdThreadComputer.cpp src/FileLoader/LfsLoader.cpp src/FileLoader/FileLoader.cpp  tests/helper.cpp)
 
 set(Paragen_FILES src/paragen.cpp)
 
 add_executable(FastLSH ${SOURCE_FILES})
 add_executable(paraGen ${Paragen_FILES})
 
-
-
-target_link_libraries (FastLSH ${HDFS_LIBRARIES} gtest memcached hiredis)
+target_link_libraries (FastLSH ${HDFS_LIBRARIES} gtest)
 

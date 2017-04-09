@@ -367,33 +367,6 @@ src/FileLoader/FileLoader.cpp.s:
 	$(MAKE) -f CMakeFiles/FastLSH.dir/build.make CMakeFiles/FastLSH.dir/src/FileLoader/FileLoader.cpp.s
 .PHONY : src/FileLoader/FileLoader.cpp.s
 
-src/FileLoader/HdfsLoader.o: src/FileLoader/HdfsLoader.cpp.o
-
-.PHONY : src/FileLoader/HdfsLoader.o
-
-# target to build an object file
-src/FileLoader/HdfsLoader.cpp.o:
-	$(MAKE) -f CMakeFiles/FastLSH.dir/build.make CMakeFiles/FastLSH.dir/src/FileLoader/HdfsLoader.cpp.o
-.PHONY : src/FileLoader/HdfsLoader.cpp.o
-
-src/FileLoader/HdfsLoader.i: src/FileLoader/HdfsLoader.cpp.i
-
-.PHONY : src/FileLoader/HdfsLoader.i
-
-# target to preprocess a source file
-src/FileLoader/HdfsLoader.cpp.i:
-	$(MAKE) -f CMakeFiles/FastLSH.dir/build.make CMakeFiles/FastLSH.dir/src/FileLoader/HdfsLoader.cpp.i
-.PHONY : src/FileLoader/HdfsLoader.cpp.i
-
-src/FileLoader/HdfsLoader.s: src/FileLoader/HdfsLoader.cpp.s
-
-.PHONY : src/FileLoader/HdfsLoader.s
-
-# target to generate assembly for a file
-src/FileLoader/HdfsLoader.cpp.s:
-	$(MAKE) -f CMakeFiles/FastLSH.dir/build.make CMakeFiles/FastLSH.dir/src/FileLoader/HdfsLoader.cpp.s
-.PHONY : src/FileLoader/HdfsLoader.cpp.s
-
 src/FileLoader/LfsLoader.o: src/FileLoader/LfsLoader.cpp.o
 
 .PHONY : src/FileLoader/LfsLoader.o
@@ -448,60 +421,6 @@ src/Generator.cpp.s:
 	$(MAKE) -f CMakeFiles/FastLSH.dir/build.make CMakeFiles/FastLSH.dir/src/Generator.cpp.s
 .PHONY : src/Generator.cpp.s
 
-src/InMemoryStore/memcached.o: src/InMemoryStore/memcached.cpp.o
-
-.PHONY : src/InMemoryStore/memcached.o
-
-# target to build an object file
-src/InMemoryStore/memcached.cpp.o:
-	$(MAKE) -f CMakeFiles/FastLSH.dir/build.make CMakeFiles/FastLSH.dir/src/InMemoryStore/memcached.cpp.o
-.PHONY : src/InMemoryStore/memcached.cpp.o
-
-src/InMemoryStore/memcached.i: src/InMemoryStore/memcached.cpp.i
-
-.PHONY : src/InMemoryStore/memcached.i
-
-# target to preprocess a source file
-src/InMemoryStore/memcached.cpp.i:
-	$(MAKE) -f CMakeFiles/FastLSH.dir/build.make CMakeFiles/FastLSH.dir/src/InMemoryStore/memcached.cpp.i
-.PHONY : src/InMemoryStore/memcached.cpp.i
-
-src/InMemoryStore/memcached.s: src/InMemoryStore/memcached.cpp.s
-
-.PHONY : src/InMemoryStore/memcached.s
-
-# target to generate assembly for a file
-src/InMemoryStore/memcached.cpp.s:
-	$(MAKE) -f CMakeFiles/FastLSH.dir/build.make CMakeFiles/FastLSH.dir/src/InMemoryStore/memcached.cpp.s
-.PHONY : src/InMemoryStore/memcached.cpp.s
-
-src/InMemoryStore/redis.o: src/InMemoryStore/redis.cpp.o
-
-.PHONY : src/InMemoryStore/redis.o
-
-# target to build an object file
-src/InMemoryStore/redis.cpp.o:
-	$(MAKE) -f CMakeFiles/FastLSH.dir/build.make CMakeFiles/FastLSH.dir/src/InMemoryStore/redis.cpp.o
-.PHONY : src/InMemoryStore/redis.cpp.o
-
-src/InMemoryStore/redis.i: src/InMemoryStore/redis.cpp.i
-
-.PHONY : src/InMemoryStore/redis.i
-
-# target to preprocess a source file
-src/InMemoryStore/redis.cpp.i:
-	$(MAKE) -f CMakeFiles/FastLSH.dir/build.make CMakeFiles/FastLSH.dir/src/InMemoryStore/redis.cpp.i
-.PHONY : src/InMemoryStore/redis.cpp.i
-
-src/InMemoryStore/redis.s: src/InMemoryStore/redis.cpp.s
-
-.PHONY : src/InMemoryStore/redis.s
-
-# target to generate assembly for a file
-src/InMemoryStore/redis.cpp.s:
-	$(MAKE) -f CMakeFiles/FastLSH.dir/build.make CMakeFiles/FastLSH.dir/src/InMemoryStore/redis.cpp.s
-.PHONY : src/InMemoryStore/redis.cpp.s
-
 src/LSH.o: src/LSH.cpp.o
 
 .PHONY : src/LSH.o
@@ -555,6 +474,33 @@ src/Normalizer.s: src/Normalizer.cpp.s
 src/Normalizer.cpp.s:
 	$(MAKE) -f CMakeFiles/FastLSH.dir/build.make CMakeFiles/FastLSH.dir/src/Normalizer.cpp.s
 .PHONY : src/Normalizer.cpp.s
+
+src/paragen.o: src/paragen.cpp.o
+
+.PHONY : src/paragen.o
+
+# target to build an object file
+src/paragen.cpp.o:
+	$(MAKE) -f CMakeFiles/paraGen.dir/build.make CMakeFiles/paraGen.dir/src/paragen.cpp.o
+.PHONY : src/paragen.cpp.o
+
+src/paragen.i: src/paragen.cpp.i
+
+.PHONY : src/paragen.i
+
+# target to preprocess a source file
+src/paragen.cpp.i:
+	$(MAKE) -f CMakeFiles/paraGen.dir/build.make CMakeFiles/paraGen.dir/src/paragen.cpp.i
+.PHONY : src/paragen.cpp.i
+
+src/paragen.s: src/paragen.cpp.s
+
+.PHONY : src/paragen.s
+
+# target to generate assembly for a file
+src/paragen.cpp.s:
+	$(MAKE) -f CMakeFiles/paraGen.dir/build.make CMakeFiles/paraGen.dir/src/paragen.cpp.s
+.PHONY : src/paragen.cpp.s
 
 tests/driver.o: tests/driver.cpp.o
 
@@ -663,33 +609,6 @@ tests/unitTests/GeneratorTest.s: tests/unitTests/GeneratorTest.cpp.s
 tests/unitTests/GeneratorTest.cpp.s:
 	$(MAKE) -f CMakeFiles/FastLSH.dir/build.make CMakeFiles/FastLSH.dir/tests/unitTests/GeneratorTest.cpp.s
 .PHONY : tests/unitTests/GeneratorTest.cpp.s
-
-tests/unitTests/HdfsTest.o: tests/unitTests/HdfsTest.cpp.o
-
-.PHONY : tests/unitTests/HdfsTest.o
-
-# target to build an object file
-tests/unitTests/HdfsTest.cpp.o:
-	$(MAKE) -f CMakeFiles/FastLSH.dir/build.make CMakeFiles/FastLSH.dir/tests/unitTests/HdfsTest.cpp.o
-.PHONY : tests/unitTests/HdfsTest.cpp.o
-
-tests/unitTests/HdfsTest.i: tests/unitTests/HdfsTest.cpp.i
-
-.PHONY : tests/unitTests/HdfsTest.i
-
-# target to preprocess a source file
-tests/unitTests/HdfsTest.cpp.i:
-	$(MAKE) -f CMakeFiles/FastLSH.dir/build.make CMakeFiles/FastLSH.dir/tests/unitTests/HdfsTest.cpp.i
-.PHONY : tests/unitTests/HdfsTest.cpp.i
-
-tests/unitTests/HdfsTest.s: tests/unitTests/HdfsTest.cpp.s
-
-.PHONY : tests/unitTests/HdfsTest.s
-
-# target to generate assembly for a file
-tests/unitTests/HdfsTest.cpp.s:
-	$(MAKE) -f CMakeFiles/FastLSH.dir/build.make CMakeFiles/FastLSH.dir/tests/unitTests/HdfsTest.cpp.s
-.PHONY : tests/unitTests/HdfsTest.cpp.s
 
 tests/unitTests/MTTests/OpenMPTest.o: tests/unitTests/MTTests/OpenMPTest.cpp.o
 
@@ -826,60 +745,6 @@ tests/unitTests/SingleThreadTest.cpp.s:
 	$(MAKE) -f CMakeFiles/FastLSH.dir/build.make CMakeFiles/FastLSH.dir/tests/unitTests/SingleThreadTest.cpp.s
 .PHONY : tests/unitTests/SingleThreadTest.cpp.s
 
-tests/unitTests/inMemoryStoreTest/MemcachedTest.o: tests/unitTests/inMemoryStoreTest/MemcachedTest.cpp.o
-
-.PHONY : tests/unitTests/inMemoryStoreTest/MemcachedTest.o
-
-# target to build an object file
-tests/unitTests/inMemoryStoreTest/MemcachedTest.cpp.o:
-	$(MAKE) -f CMakeFiles/FastLSH.dir/build.make CMakeFiles/FastLSH.dir/tests/unitTests/inMemoryStoreTest/MemcachedTest.cpp.o
-.PHONY : tests/unitTests/inMemoryStoreTest/MemcachedTest.cpp.o
-
-tests/unitTests/inMemoryStoreTest/MemcachedTest.i: tests/unitTests/inMemoryStoreTest/MemcachedTest.cpp.i
-
-.PHONY : tests/unitTests/inMemoryStoreTest/MemcachedTest.i
-
-# target to preprocess a source file
-tests/unitTests/inMemoryStoreTest/MemcachedTest.cpp.i:
-	$(MAKE) -f CMakeFiles/FastLSH.dir/build.make CMakeFiles/FastLSH.dir/tests/unitTests/inMemoryStoreTest/MemcachedTest.cpp.i
-.PHONY : tests/unitTests/inMemoryStoreTest/MemcachedTest.cpp.i
-
-tests/unitTests/inMemoryStoreTest/MemcachedTest.s: tests/unitTests/inMemoryStoreTest/MemcachedTest.cpp.s
-
-.PHONY : tests/unitTests/inMemoryStoreTest/MemcachedTest.s
-
-# target to generate assembly for a file
-tests/unitTests/inMemoryStoreTest/MemcachedTest.cpp.s:
-	$(MAKE) -f CMakeFiles/FastLSH.dir/build.make CMakeFiles/FastLSH.dir/tests/unitTests/inMemoryStoreTest/MemcachedTest.cpp.s
-.PHONY : tests/unitTests/inMemoryStoreTest/MemcachedTest.cpp.s
-
-tests/unitTests/inMemoryStoreTest/RedisTest.o: tests/unitTests/inMemoryStoreTest/RedisTest.cpp.o
-
-.PHONY : tests/unitTests/inMemoryStoreTest/RedisTest.o
-
-# target to build an object file
-tests/unitTests/inMemoryStoreTest/RedisTest.cpp.o:
-	$(MAKE) -f CMakeFiles/FastLSH.dir/build.make CMakeFiles/FastLSH.dir/tests/unitTests/inMemoryStoreTest/RedisTest.cpp.o
-.PHONY : tests/unitTests/inMemoryStoreTest/RedisTest.cpp.o
-
-tests/unitTests/inMemoryStoreTest/RedisTest.i: tests/unitTests/inMemoryStoreTest/RedisTest.cpp.i
-
-.PHONY : tests/unitTests/inMemoryStoreTest/RedisTest.i
-
-# target to preprocess a source file
-tests/unitTests/inMemoryStoreTest/RedisTest.cpp.i:
-	$(MAKE) -f CMakeFiles/FastLSH.dir/build.make CMakeFiles/FastLSH.dir/tests/unitTests/inMemoryStoreTest/RedisTest.cpp.i
-.PHONY : tests/unitTests/inMemoryStoreTest/RedisTest.cpp.i
-
-tests/unitTests/inMemoryStoreTest/RedisTest.s: tests/unitTests/inMemoryStoreTest/RedisTest.cpp.s
-
-.PHONY : tests/unitTests/inMemoryStoreTest/RedisTest.s
-
-# target to generate assembly for a file
-tests/unitTests/inMemoryStoreTest/RedisTest.cpp.s:
-	$(MAKE) -f CMakeFiles/FastLSH.dir/build.make CMakeFiles/FastLSH.dir/tests/unitTests/inMemoryStoreTest/RedisTest.cpp.s
-.PHONY : tests/unitTests/inMemoryStoreTest/RedisTest.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -913,27 +778,21 @@ help:
 	@echo "... src/FileLoader/FileLoader.o"
 	@echo "... src/FileLoader/FileLoader.i"
 	@echo "... src/FileLoader/FileLoader.s"
-	@echo "... src/FileLoader/HdfsLoader.o"
-	@echo "... src/FileLoader/HdfsLoader.i"
-	@echo "... src/FileLoader/HdfsLoader.s"
 	@echo "... src/FileLoader/LfsLoader.o"
 	@echo "... src/FileLoader/LfsLoader.i"
 	@echo "... src/FileLoader/LfsLoader.s"
 	@echo "... src/Generator.o"
 	@echo "... src/Generator.i"
 	@echo "... src/Generator.s"
-	@echo "... src/InMemoryStore/memcached.o"
-	@echo "... src/InMemoryStore/memcached.i"
-	@echo "... src/InMemoryStore/memcached.s"
-	@echo "... src/InMemoryStore/redis.o"
-	@echo "... src/InMemoryStore/redis.i"
-	@echo "... src/InMemoryStore/redis.s"
 	@echo "... src/LSH.o"
 	@echo "... src/LSH.i"
 	@echo "... src/LSH.s"
 	@echo "... src/Normalizer.o"
 	@echo "... src/Normalizer.i"
 	@echo "... src/Normalizer.s"
+	@echo "... src/paragen.o"
+	@echo "... src/paragen.i"
+	@echo "... src/paragen.s"
 	@echo "... tests/driver.o"
 	@echo "... tests/driver.i"
 	@echo "... tests/driver.s"
@@ -946,9 +805,6 @@ help:
 	@echo "... tests/unitTests/GeneratorTest.o"
 	@echo "... tests/unitTests/GeneratorTest.i"
 	@echo "... tests/unitTests/GeneratorTest.s"
-	@echo "... tests/unitTests/HdfsTest.o"
-	@echo "... tests/unitTests/HdfsTest.i"
-	@echo "... tests/unitTests/HdfsTest.s"
 	@echo "... tests/unitTests/MTTests/OpenMPTest.o"
 	@echo "... tests/unitTests/MTTests/OpenMPTest.i"
 	@echo "... tests/unitTests/MTTests/OpenMPTest.s"
@@ -964,12 +820,6 @@ help:
 	@echo "... tests/unitTests/SingleThreadTest.o"
 	@echo "... tests/unitTests/SingleThreadTest.i"
 	@echo "... tests/unitTests/SingleThreadTest.s"
-	@echo "... tests/unitTests/inMemoryStoreTest/MemcachedTest.o"
-	@echo "... tests/unitTests/inMemoryStoreTest/MemcachedTest.i"
-	@echo "... tests/unitTests/inMemoryStoreTest/MemcachedTest.s"
-	@echo "... tests/unitTests/inMemoryStoreTest/RedisTest.o"
-	@echo "... tests/unitTests/inMemoryStoreTest/RedisTest.i"
-	@echo "... tests/unitTests/inMemoryStoreTest/RedisTest.s"
 .PHONY : help
 
 

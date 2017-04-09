@@ -85,9 +85,6 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/home/peter/FYP/FastLSH-ESS/lib/googletest/googletest/include"/>
-					<Add directory="/usr/local/hadoop/include"/>
-					<Add directory="/usr/lib/jvm/java-8-openjdk-amd64/include"/>
-					<Add directory="/usr/lib/jvm/java-8-openjdk-amd64/include/linux"/>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
@@ -112,9 +109,6 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/home/peter/FYP/FastLSH-ESS/lib/googletest/googletest/include"/>
-					<Add directory="/usr/local/hadoop/include"/>
-					<Add directory="/usr/lib/jvm/java-8-openjdk-amd64/include"/>
-					<Add directory="/usr/lib/jvm/java-8-openjdk-amd64/include/linux"/>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
@@ -139,9 +133,6 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/home/peter/FYP/FastLSH-ESS/lib/googletest/googletest/include"/>
-					<Add directory="/usr/local/hadoop/include"/>
-					<Add directory="/usr/lib/jvm/java-8-openjdk-amd64/include"/>
-					<Add directory="/usr/lib/jvm/java-8-openjdk-amd64/include/linux"/>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
@@ -166,9 +157,6 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/home/peter/FYP/FastLSH-ESS/lib/googletest/googletest/include"/>
-					<Add directory="/usr/local/hadoop/include"/>
-					<Add directory="/usr/lib/jvm/java-8-openjdk-amd64/include"/>
-					<Add directory="/usr/lib/jvm/java-8-openjdk-amd64/include/linux"/>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
@@ -442,19 +430,10 @@
 		<Unit filename="/home/peter/FYP/FastLSH-ESS/src/FileLoader/FileLoader.cpp">
 			<Option target="FastLSH"/>
 		</Unit>
-		<Unit filename="/home/peter/FYP/FastLSH-ESS/src/FileLoader/HdfsLoader.cpp">
-			<Option target="FastLSH"/>
-		</Unit>
 		<Unit filename="/home/peter/FYP/FastLSH-ESS/src/FileLoader/LfsLoader.cpp">
 			<Option target="FastLSH"/>
 		</Unit>
 		<Unit filename="/home/peter/FYP/FastLSH-ESS/src/Generator.cpp">
-			<Option target="FastLSH"/>
-		</Unit>
-		<Unit filename="/home/peter/FYP/FastLSH-ESS/src/InMemoryStore/memcached.cpp">
-			<Option target="FastLSH"/>
-		</Unit>
-		<Unit filename="/home/peter/FYP/FastLSH-ESS/src/InMemoryStore/redis.cpp">
 			<Option target="FastLSH"/>
 		</Unit>
 		<Unit filename="/home/peter/FYP/FastLSH-ESS/src/LSH.cpp">
@@ -462,6 +441,9 @@
 		</Unit>
 		<Unit filename="/home/peter/FYP/FastLSH-ESS/src/Normalizer.cpp">
 			<Option target="FastLSH"/>
+		</Unit>
+		<Unit filename="/home/peter/FYP/FastLSH-ESS/src/paragen.cpp">
+			<Option target="paraGen"/>
 		</Unit>
 		<Unit filename="/home/peter/FYP/FastLSH-ESS/tests/driver.cpp">
 			<Option target="FastLSH"/>
@@ -473,9 +455,6 @@
 			<Option target="FastLSH"/>
 		</Unit>
 		<Unit filename="/home/peter/FYP/FastLSH-ESS/tests/unitTests/GeneratorTest.cpp">
-			<Option target="FastLSH"/>
-		</Unit>
-		<Unit filename="/home/peter/FYP/FastLSH-ESS/tests/unitTests/HdfsTest.cpp">
 			<Option target="FastLSH"/>
 		</Unit>
 		<Unit filename="/home/peter/FYP/FastLSH-ESS/tests/unitTests/MTTests/OpenMPTest.cpp">
@@ -491,12 +470,6 @@
 			<Option target="FastLSH"/>
 		</Unit>
 		<Unit filename="/home/peter/FYP/FastLSH-ESS/tests/unitTests/SingleThreadTest.cpp">
-			<Option target="FastLSH"/>
-		</Unit>
-		<Unit filename="/home/peter/FYP/FastLSH-ESS/tests/unitTests/inMemoryStoreTest/MemcachedTest.cpp">
-			<Option target="FastLSH"/>
-		</Unit>
-		<Unit filename="/home/peter/FYP/FastLSH-ESS/tests/unitTests/inMemoryStoreTest/RedisTest.cpp">
 			<Option target="FastLSH"/>
 		</Unit>
 		<Unit filename="/home/peter/FYP/FastLSH-ESS/CMakeLists.txt">

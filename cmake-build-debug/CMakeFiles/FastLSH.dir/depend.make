@@ -20,10 +20,6 @@ CMakeFiles/FastLSH.dir/src/Computer/StdThreadComputer.cpp.o: ../src/Computer/Std
 CMakeFiles/FastLSH.dir/src/FileLoader/FileLoader.cpp.o: ../include/otherClasses/FileLoader.h
 CMakeFiles/FastLSH.dir/src/FileLoader/FileLoader.cpp.o: ../src/FileLoader/FileLoader.cpp
 
-CMakeFiles/FastLSH.dir/src/FileLoader/HdfsLoader.cpp.o: ../include/otherClasses/FileLoader.h
-CMakeFiles/FastLSH.dir/src/FileLoader/HdfsLoader.cpp.o: ../src/FileLoader/HdfsLoader.cpp
-CMakeFiles/FastLSH.dir/src/FileLoader/HdfsLoader.cpp.o: /usr/local/hadoop/include/hdfs.h
-
 CMakeFiles/FastLSH.dir/src/FileLoader/LfsLoader.cpp.o: ../include/otherClasses/FileLoader.h
 CMakeFiles/FastLSH.dir/src/FileLoader/LfsLoader.cpp.o: ../src/FileLoader/LfsLoader.cpp
 
@@ -31,22 +27,6 @@ CMakeFiles/FastLSH.dir/src/Generator.cpp.o: ../include/otherClasses/Computer.h
 CMakeFiles/FastLSH.dir/src/Generator.cpp.o: ../include/otherClasses/Generator.h
 CMakeFiles/FastLSH.dir/src/Generator.cpp.o: ../include/otherClasses/ParameterHolder.h
 CMakeFiles/FastLSH.dir/src/Generator.cpp.o: ../src/Generator.cpp
-
-CMakeFiles/FastLSH.dir/src/InMemoryStore/memcached.cpp.o: ../lib/googletest/googletest/include/gtest/gtest_prod.h
-CMakeFiles/FastLSH.dir/src/InMemoryStore/memcached.cpp.o: ../include/LSH.h
-CMakeFiles/FastLSH.dir/src/InMemoryStore/memcached.cpp.o: ../include/otherClasses/Computer.h
-CMakeFiles/FastLSH.dir/src/InMemoryStore/memcached.cpp.o: ../include/otherClasses/FileLoader.h
-CMakeFiles/FastLSH.dir/src/InMemoryStore/memcached.cpp.o: ../include/otherClasses/Generator.h
-CMakeFiles/FastLSH.dir/src/InMemoryStore/memcached.cpp.o: ../include/otherClasses/ParameterHolder.h
-CMakeFiles/FastLSH.dir/src/InMemoryStore/memcached.cpp.o: ../src/InMemoryStore/memcached.cpp
-
-CMakeFiles/FastLSH.dir/src/InMemoryStore/redis.cpp.o: ../lib/googletest/googletest/include/gtest/gtest_prod.h
-CMakeFiles/FastLSH.dir/src/InMemoryStore/redis.cpp.o: ../include/LSH.h
-CMakeFiles/FastLSH.dir/src/InMemoryStore/redis.cpp.o: ../include/otherClasses/Computer.h
-CMakeFiles/FastLSH.dir/src/InMemoryStore/redis.cpp.o: ../include/otherClasses/FileLoader.h
-CMakeFiles/FastLSH.dir/src/InMemoryStore/redis.cpp.o: ../include/otherClasses/Generator.h
-CMakeFiles/FastLSH.dir/src/InMemoryStore/redis.cpp.o: ../include/otherClasses/ParameterHolder.h
-CMakeFiles/FastLSH.dir/src/InMemoryStore/redis.cpp.o: ../src/InMemoryStore/redis.cpp
 
 CMakeFiles/FastLSH.dir/src/LSH.cpp.o: ../lib/googletest/googletest/include/gtest/gtest_prod.h
 CMakeFiles/FastLSH.dir/src/LSH.cpp.o: ../include/LSH.h
@@ -153,35 +133,6 @@ CMakeFiles/FastLSH.dir/tests/unitTests/GeneratorTest.cpp.o: ../include/otherClas
 CMakeFiles/FastLSH.dir/tests/unitTests/GeneratorTest.cpp.o: ../include/otherClasses/Generator.h
 CMakeFiles/FastLSH.dir/tests/unitTests/GeneratorTest.cpp.o: ../include/otherClasses/ParameterHolder.h
 CMakeFiles/FastLSH.dir/tests/unitTests/GeneratorTest.cpp.o: ../tests/unitTests/GeneratorTest.cpp
-
-CMakeFiles/FastLSH.dir/tests/unitTests/HdfsTest.cpp.o: ../lib/googletest/googletest/include/gtest/gtest-death-test.h
-CMakeFiles/FastLSH.dir/tests/unitTests/HdfsTest.cpp.o: ../lib/googletest/googletest/include/gtest/gtest-message.h
-CMakeFiles/FastLSH.dir/tests/unitTests/HdfsTest.cpp.o: ../lib/googletest/googletest/include/gtest/gtest-param-test.h
-CMakeFiles/FastLSH.dir/tests/unitTests/HdfsTest.cpp.o: ../lib/googletest/googletest/include/gtest/gtest-printers.h
-CMakeFiles/FastLSH.dir/tests/unitTests/HdfsTest.cpp.o: ../lib/googletest/googletest/include/gtest/gtest-test-part.h
-CMakeFiles/FastLSH.dir/tests/unitTests/HdfsTest.cpp.o: ../lib/googletest/googletest/include/gtest/gtest-typed-test.h
-CMakeFiles/FastLSH.dir/tests/unitTests/HdfsTest.cpp.o: ../lib/googletest/googletest/include/gtest/gtest.h
-CMakeFiles/FastLSH.dir/tests/unitTests/HdfsTest.cpp.o: ../lib/googletest/googletest/include/gtest/gtest_pred_impl.h
-CMakeFiles/FastLSH.dir/tests/unitTests/HdfsTest.cpp.o: ../lib/googletest/googletest/include/gtest/gtest_prod.h
-CMakeFiles/FastLSH.dir/tests/unitTests/HdfsTest.cpp.o: ../lib/googletest/googletest/include/gtest/internal/custom/gtest-port.h
-CMakeFiles/FastLSH.dir/tests/unitTests/HdfsTest.cpp.o: ../lib/googletest/googletest/include/gtest/internal/custom/gtest-printers.h
-CMakeFiles/FastLSH.dir/tests/unitTests/HdfsTest.cpp.o: ../lib/googletest/googletest/include/gtest/internal/gtest-death-test-internal.h
-CMakeFiles/FastLSH.dir/tests/unitTests/HdfsTest.cpp.o: ../lib/googletest/googletest/include/gtest/internal/gtest-filepath.h
-CMakeFiles/FastLSH.dir/tests/unitTests/HdfsTest.cpp.o: ../lib/googletest/googletest/include/gtest/internal/gtest-internal.h
-CMakeFiles/FastLSH.dir/tests/unitTests/HdfsTest.cpp.o: ../lib/googletest/googletest/include/gtest/internal/gtest-linked_ptr.h
-CMakeFiles/FastLSH.dir/tests/unitTests/HdfsTest.cpp.o: ../lib/googletest/googletest/include/gtest/internal/gtest-param-util-generated.h
-CMakeFiles/FastLSH.dir/tests/unitTests/HdfsTest.cpp.o: ../lib/googletest/googletest/include/gtest/internal/gtest-param-util.h
-CMakeFiles/FastLSH.dir/tests/unitTests/HdfsTest.cpp.o: ../lib/googletest/googletest/include/gtest/internal/gtest-port-arch.h
-CMakeFiles/FastLSH.dir/tests/unitTests/HdfsTest.cpp.o: ../lib/googletest/googletest/include/gtest/internal/gtest-port.h
-CMakeFiles/FastLSH.dir/tests/unitTests/HdfsTest.cpp.o: ../lib/googletest/googletest/include/gtest/internal/gtest-string.h
-CMakeFiles/FastLSH.dir/tests/unitTests/HdfsTest.cpp.o: ../lib/googletest/googletest/include/gtest/internal/gtest-tuple.h
-CMakeFiles/FastLSH.dir/tests/unitTests/HdfsTest.cpp.o: ../lib/googletest/googletest/include/gtest/internal/gtest-type-util.h
-CMakeFiles/FastLSH.dir/tests/unitTests/HdfsTest.cpp.o: ../include/LSH.h
-CMakeFiles/FastLSH.dir/tests/unitTests/HdfsTest.cpp.o: ../include/otherClasses/Computer.h
-CMakeFiles/FastLSH.dir/tests/unitTests/HdfsTest.cpp.o: ../include/otherClasses/FileLoader.h
-CMakeFiles/FastLSH.dir/tests/unitTests/HdfsTest.cpp.o: ../include/otherClasses/Generator.h
-CMakeFiles/FastLSH.dir/tests/unitTests/HdfsTest.cpp.o: ../include/otherClasses/ParameterHolder.h
-CMakeFiles/FastLSH.dir/tests/unitTests/HdfsTest.cpp.o: ../tests/unitTests/HdfsTest.cpp
 
 CMakeFiles/FastLSH.dir/tests/unitTests/MTTests/OpenMPTest.cpp.o: ../lib/googletest/googletest/include/gtest/gtest-death-test.h
 CMakeFiles/FastLSH.dir/tests/unitTests/MTTests/OpenMPTest.cpp.o: ../lib/googletest/googletest/include/gtest/gtest-message.h
@@ -327,62 +278,4 @@ CMakeFiles/FastLSH.dir/tests/unitTests/SingleThreadTest.cpp.o: ../include/otherC
 CMakeFiles/FastLSH.dir/tests/unitTests/SingleThreadTest.cpp.o: ../include/otherClasses/Generator.h
 CMakeFiles/FastLSH.dir/tests/unitTests/SingleThreadTest.cpp.o: ../include/otherClasses/ParameterHolder.h
 CMakeFiles/FastLSH.dir/tests/unitTests/SingleThreadTest.cpp.o: ../tests/unitTests/SingleThreadTest.cpp
-
-CMakeFiles/FastLSH.dir/tests/unitTests/inMemoryStoreTest/MemcachedTest.cpp.o: ../lib/googletest/googletest/include/gtest/gtest-death-test.h
-CMakeFiles/FastLSH.dir/tests/unitTests/inMemoryStoreTest/MemcachedTest.cpp.o: ../lib/googletest/googletest/include/gtest/gtest-message.h
-CMakeFiles/FastLSH.dir/tests/unitTests/inMemoryStoreTest/MemcachedTest.cpp.o: ../lib/googletest/googletest/include/gtest/gtest-param-test.h
-CMakeFiles/FastLSH.dir/tests/unitTests/inMemoryStoreTest/MemcachedTest.cpp.o: ../lib/googletest/googletest/include/gtest/gtest-printers.h
-CMakeFiles/FastLSH.dir/tests/unitTests/inMemoryStoreTest/MemcachedTest.cpp.o: ../lib/googletest/googletest/include/gtest/gtest-test-part.h
-CMakeFiles/FastLSH.dir/tests/unitTests/inMemoryStoreTest/MemcachedTest.cpp.o: ../lib/googletest/googletest/include/gtest/gtest-typed-test.h
-CMakeFiles/FastLSH.dir/tests/unitTests/inMemoryStoreTest/MemcachedTest.cpp.o: ../lib/googletest/googletest/include/gtest/gtest.h
-CMakeFiles/FastLSH.dir/tests/unitTests/inMemoryStoreTest/MemcachedTest.cpp.o: ../lib/googletest/googletest/include/gtest/gtest_pred_impl.h
-CMakeFiles/FastLSH.dir/tests/unitTests/inMemoryStoreTest/MemcachedTest.cpp.o: ../lib/googletest/googletest/include/gtest/gtest_prod.h
-CMakeFiles/FastLSH.dir/tests/unitTests/inMemoryStoreTest/MemcachedTest.cpp.o: ../lib/googletest/googletest/include/gtest/internal/custom/gtest-port.h
-CMakeFiles/FastLSH.dir/tests/unitTests/inMemoryStoreTest/MemcachedTest.cpp.o: ../lib/googletest/googletest/include/gtest/internal/custom/gtest-printers.h
-CMakeFiles/FastLSH.dir/tests/unitTests/inMemoryStoreTest/MemcachedTest.cpp.o: ../lib/googletest/googletest/include/gtest/internal/gtest-death-test-internal.h
-CMakeFiles/FastLSH.dir/tests/unitTests/inMemoryStoreTest/MemcachedTest.cpp.o: ../lib/googletest/googletest/include/gtest/internal/gtest-filepath.h
-CMakeFiles/FastLSH.dir/tests/unitTests/inMemoryStoreTest/MemcachedTest.cpp.o: ../lib/googletest/googletest/include/gtest/internal/gtest-internal.h
-CMakeFiles/FastLSH.dir/tests/unitTests/inMemoryStoreTest/MemcachedTest.cpp.o: ../lib/googletest/googletest/include/gtest/internal/gtest-linked_ptr.h
-CMakeFiles/FastLSH.dir/tests/unitTests/inMemoryStoreTest/MemcachedTest.cpp.o: ../lib/googletest/googletest/include/gtest/internal/gtest-param-util-generated.h
-CMakeFiles/FastLSH.dir/tests/unitTests/inMemoryStoreTest/MemcachedTest.cpp.o: ../lib/googletest/googletest/include/gtest/internal/gtest-param-util.h
-CMakeFiles/FastLSH.dir/tests/unitTests/inMemoryStoreTest/MemcachedTest.cpp.o: ../lib/googletest/googletest/include/gtest/internal/gtest-port-arch.h
-CMakeFiles/FastLSH.dir/tests/unitTests/inMemoryStoreTest/MemcachedTest.cpp.o: ../lib/googletest/googletest/include/gtest/internal/gtest-port.h
-CMakeFiles/FastLSH.dir/tests/unitTests/inMemoryStoreTest/MemcachedTest.cpp.o: ../lib/googletest/googletest/include/gtest/internal/gtest-string.h
-CMakeFiles/FastLSH.dir/tests/unitTests/inMemoryStoreTest/MemcachedTest.cpp.o: ../lib/googletest/googletest/include/gtest/internal/gtest-tuple.h
-CMakeFiles/FastLSH.dir/tests/unitTests/inMemoryStoreTest/MemcachedTest.cpp.o: ../lib/googletest/googletest/include/gtest/internal/gtest-type-util.h
-CMakeFiles/FastLSH.dir/tests/unitTests/inMemoryStoreTest/MemcachedTest.cpp.o: ../include/LSH.h
-CMakeFiles/FastLSH.dir/tests/unitTests/inMemoryStoreTest/MemcachedTest.cpp.o: ../include/otherClasses/Computer.h
-CMakeFiles/FastLSH.dir/tests/unitTests/inMemoryStoreTest/MemcachedTest.cpp.o: ../include/otherClasses/FileLoader.h
-CMakeFiles/FastLSH.dir/tests/unitTests/inMemoryStoreTest/MemcachedTest.cpp.o: ../include/otherClasses/Generator.h
-CMakeFiles/FastLSH.dir/tests/unitTests/inMemoryStoreTest/MemcachedTest.cpp.o: ../include/otherClasses/ParameterHolder.h
-CMakeFiles/FastLSH.dir/tests/unitTests/inMemoryStoreTest/MemcachedTest.cpp.o: ../tests/unitTests/inMemoryStoreTest/MemcachedTest.cpp
-
-CMakeFiles/FastLSH.dir/tests/unitTests/inMemoryStoreTest/RedisTest.cpp.o: ../lib/googletest/googletest/include/gtest/gtest-death-test.h
-CMakeFiles/FastLSH.dir/tests/unitTests/inMemoryStoreTest/RedisTest.cpp.o: ../lib/googletest/googletest/include/gtest/gtest-message.h
-CMakeFiles/FastLSH.dir/tests/unitTests/inMemoryStoreTest/RedisTest.cpp.o: ../lib/googletest/googletest/include/gtest/gtest-param-test.h
-CMakeFiles/FastLSH.dir/tests/unitTests/inMemoryStoreTest/RedisTest.cpp.o: ../lib/googletest/googletest/include/gtest/gtest-printers.h
-CMakeFiles/FastLSH.dir/tests/unitTests/inMemoryStoreTest/RedisTest.cpp.o: ../lib/googletest/googletest/include/gtest/gtest-test-part.h
-CMakeFiles/FastLSH.dir/tests/unitTests/inMemoryStoreTest/RedisTest.cpp.o: ../lib/googletest/googletest/include/gtest/gtest-typed-test.h
-CMakeFiles/FastLSH.dir/tests/unitTests/inMemoryStoreTest/RedisTest.cpp.o: ../lib/googletest/googletest/include/gtest/gtest.h
-CMakeFiles/FastLSH.dir/tests/unitTests/inMemoryStoreTest/RedisTest.cpp.o: ../lib/googletest/googletest/include/gtest/gtest_pred_impl.h
-CMakeFiles/FastLSH.dir/tests/unitTests/inMemoryStoreTest/RedisTest.cpp.o: ../lib/googletest/googletest/include/gtest/gtest_prod.h
-CMakeFiles/FastLSH.dir/tests/unitTests/inMemoryStoreTest/RedisTest.cpp.o: ../lib/googletest/googletest/include/gtest/internal/custom/gtest-port.h
-CMakeFiles/FastLSH.dir/tests/unitTests/inMemoryStoreTest/RedisTest.cpp.o: ../lib/googletest/googletest/include/gtest/internal/custom/gtest-printers.h
-CMakeFiles/FastLSH.dir/tests/unitTests/inMemoryStoreTest/RedisTest.cpp.o: ../lib/googletest/googletest/include/gtest/internal/gtest-death-test-internal.h
-CMakeFiles/FastLSH.dir/tests/unitTests/inMemoryStoreTest/RedisTest.cpp.o: ../lib/googletest/googletest/include/gtest/internal/gtest-filepath.h
-CMakeFiles/FastLSH.dir/tests/unitTests/inMemoryStoreTest/RedisTest.cpp.o: ../lib/googletest/googletest/include/gtest/internal/gtest-internal.h
-CMakeFiles/FastLSH.dir/tests/unitTests/inMemoryStoreTest/RedisTest.cpp.o: ../lib/googletest/googletest/include/gtest/internal/gtest-linked_ptr.h
-CMakeFiles/FastLSH.dir/tests/unitTests/inMemoryStoreTest/RedisTest.cpp.o: ../lib/googletest/googletest/include/gtest/internal/gtest-param-util-generated.h
-CMakeFiles/FastLSH.dir/tests/unitTests/inMemoryStoreTest/RedisTest.cpp.o: ../lib/googletest/googletest/include/gtest/internal/gtest-param-util.h
-CMakeFiles/FastLSH.dir/tests/unitTests/inMemoryStoreTest/RedisTest.cpp.o: ../lib/googletest/googletest/include/gtest/internal/gtest-port-arch.h
-CMakeFiles/FastLSH.dir/tests/unitTests/inMemoryStoreTest/RedisTest.cpp.o: ../lib/googletest/googletest/include/gtest/internal/gtest-port.h
-CMakeFiles/FastLSH.dir/tests/unitTests/inMemoryStoreTest/RedisTest.cpp.o: ../lib/googletest/googletest/include/gtest/internal/gtest-string.h
-CMakeFiles/FastLSH.dir/tests/unitTests/inMemoryStoreTest/RedisTest.cpp.o: ../lib/googletest/googletest/include/gtest/internal/gtest-tuple.h
-CMakeFiles/FastLSH.dir/tests/unitTests/inMemoryStoreTest/RedisTest.cpp.o: ../lib/googletest/googletest/include/gtest/internal/gtest-type-util.h
-CMakeFiles/FastLSH.dir/tests/unitTests/inMemoryStoreTest/RedisTest.cpp.o: ../include/LSH.h
-CMakeFiles/FastLSH.dir/tests/unitTests/inMemoryStoreTest/RedisTest.cpp.o: ../include/otherClasses/Computer.h
-CMakeFiles/FastLSH.dir/tests/unitTests/inMemoryStoreTest/RedisTest.cpp.o: ../include/otherClasses/FileLoader.h
-CMakeFiles/FastLSH.dir/tests/unitTests/inMemoryStoreTest/RedisTest.cpp.o: ../include/otherClasses/Generator.h
-CMakeFiles/FastLSH.dir/tests/unitTests/inMemoryStoreTest/RedisTest.cpp.o: ../include/otherClasses/ParameterHolder.h
-CMakeFiles/FastLSH.dir/tests/unitTests/inMemoryStoreTest/RedisTest.cpp.o: ../tests/unitTests/inMemoryStoreTest/RedisTest.cpp
 

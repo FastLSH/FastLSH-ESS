@@ -229,10 +229,7 @@ bool LSH::setDefault(){
 
 bool LSH::setUseHdfs(bool useHdfs){
     delete theFileLoader;
-    if(useHdfs)
-        theFileLoader = new HdfsLoader();
-    else
-        theFileLoader = new LfsLoader();
+    theFileLoader = new LfsLoader();
 }
 
 bool LSH::setComputeMode(int computeMode){
