@@ -11,6 +11,7 @@ It contains the FastLSH core engine. After compilation, two executable files `Fa
     >make
 
 ## Change Parameters
+There are two ways to change parameters
 1. change arguments file `./FastLSH_Arguments`
 2. Input parameters during execution
 
