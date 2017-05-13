@@ -4,6 +4,10 @@
 # FastLSH-ESS
 It contains the FastLSH core engine. After compilation, two executable files `FastLSH` and `ParaGen` will be generated.
 
+<img src="https://cloud.githubusercontent.com/assets/11495951/26025317/5f2c94ca-3817-11e7-8839-22942676f27d.png" alt="FastLSH_LOGO" style="width: 100px;"/>  
+
+<img src="https://cloud.githubusercontent.com/assets/11495951/26025318/5f331d72-3817-11e7-80cf-a386f5da0a11.png" alt="FastLSH_LOGO" style="width: 100px;"/>
+
 ## Functions
 * Basic FastLSH exectuion flow
 * Multithread execution
